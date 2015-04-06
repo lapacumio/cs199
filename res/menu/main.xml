@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chat_app.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item android:id="@+id/connect_to_network" 
+        android:title="@string/connect_to_network_menu"/>
+    <item android:id="@+id/edit_allowed_channels" 
+        android:title="@string/edit_allowed_channels_menu"/>
+    <item android:id="@+id/add_SMS_contact"
+        android:title="@string/add_SMS_contact_menu"/>
+    <item android:id="@+id/start_conversation"
+        android:title="@string/start_conversation_menu"/>
+    <item android:id="@+id/scan_for_bt_devices"
+        android:title="@string/scan_for_bt_devices_menu"/>
+    <item android:id="@+id/ensure_bt_discoverable"
+        android:title="@string/ensure_bt_discoverable_menu"/>
+    
+</menu>
